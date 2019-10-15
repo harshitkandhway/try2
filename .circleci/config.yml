@@ -2,7 +2,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: circleci/openjdk
+      - image: circleci/openjdk:14-jdk
     steps:
       - checkout
       - run: ./mvnw clean install
