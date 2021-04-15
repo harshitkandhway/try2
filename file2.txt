@@ -1,2 +1,6 @@
 file 2
+
 New line added.
+
+
+line added from browser.
